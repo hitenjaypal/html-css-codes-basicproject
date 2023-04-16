@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 350px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: #d7d7d7;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+ 
+fieldset{
+    background-color: #ffff;   
+    border: 1px solid rgb(4, 4, 4);
+}
+
+input[type="submit"] {
+    background-color: #4dae;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 25%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(164, 218, 186);
+}
+
+.h1{
+    background-color: rgb(167, 217, 233);
+}
+
+.header {
+    background-color:rgb(96, 163, 213) ;
+    color: #d7d7d7;
+    padding: 15px;
+}
